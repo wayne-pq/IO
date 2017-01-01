@@ -2,7 +2,6 @@ import org.junit.Test;
 import sun.nio.cs.ext.GBK;
 
 import java.io.*;
-import java.nio.charset.Charset;
 
 /**
  * Created by panqian on 2017/1/1.
