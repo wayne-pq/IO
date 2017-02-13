@@ -18,12 +18,11 @@ public class Regex_1 {
 
         //群组数
         int count;
-        System.out.println(count=matcher.groupCount());
+        System.out.println(count = matcher.groupCount());
 
         //0是整个匹配结果  真正组匹配从1开始  从外到里   从左到右
-        for(int i=0;i<=count;i++)
-            System.out.println(matcher.group(i)+" 从索引 "+matcher.start(i)+" 开始,从 "+(matcher.end(i)-1)+" 结束");
-
+        for (int i = 0; i <= count; i++)
+            System.out.println(matcher.group(i) + " 从索引 " + matcher.start(i) + " 开始,从 " + (matcher.end(i) - 1) + " 结束");
 
 
 
